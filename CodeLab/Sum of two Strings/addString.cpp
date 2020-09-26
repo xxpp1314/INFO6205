@@ -25,7 +25,6 @@ int main(){
     string num2;
     getline(cin, num1);
     getline(cin, num2);
-    vector<string> result;
     cout << "result: " << addString(num1, num2) << endl;
     return 0;
 }
